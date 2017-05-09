@@ -59,7 +59,7 @@ Second, run selenium-3.4.1:
     docker run -it selenium-3.4.1
 
 
-Test case can be input now:
+Test case(which fetch and print out trending projects in github) can be input now:
 ```python
 from selenium import webdriver
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
