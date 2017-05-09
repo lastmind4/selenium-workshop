@@ -34,8 +34,13 @@ Get github projects treading today for popular languages.
 
 First, run Selenium Standalone Server(using docker images built locally).
 
-Here Chrome with vnc support is selected, 192.168.234.1 is host ip.
-Refers https://github.com/SeleniumHQ/docker-selenium#running-the-images.
+* There are several versions of Selenium standalone server, Chrome with vnc support is used here
+* 192.168.234.1 is host ip
+* port 5900 is for vnc, default password of vnc is `secret`
+* port 4444 is for selenium api
+
+Refer https://github.com/SeleniumHQ/docker-selenium#running-the-images.
+
 ```bash
 # For osx
 # Prepare ram_disk first
